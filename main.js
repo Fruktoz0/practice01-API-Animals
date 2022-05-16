@@ -1,4 +1,6 @@
 const result = document.querySelector(".result");
+const allbutton = document.getElementById("allbutton");
+
 
 
 async function animallist(){
@@ -32,4 +34,4 @@ async function animallist(){
 
 }
 
-animallist();
+allbutton.addEventListener("click", animallist);
